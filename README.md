@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+# 😊 Emoji Mood Oracle
 
-## Project info
+**Emoji Mood Oracle** is a fun and intelligent sentiment analysis app that classifies the emotional tone of emojis. Select an emoji and instantly discover if it's expressing a **Positive**, **Negative**, or **Neutral** sentiment. Built using no-code AI tools like **Lobe** and deployed using a user-friendly interface (e.g., Streamlit or Web), this project demonstrates how emojis alone can reveal emotions in digital communication.
 
-**URL**: https://lovable.dev/projects/8ce1e845-13e6-46fa-862c-a587af65eb95
+---
 
-## How can I edit this code?
+## 🎯 Project Aim
 
-There are several ways of editing your application.
+To develop a smart emoji sentiment classifier that helps users interpret emotional meaning based on visual emoji input, using machine learning.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8ce1e845-13e6-46fa-862c-a587af65eb95) and start prompting.
+## ❓ Problem Statement
 
-Changes made via Lovable will be committed automatically to this repo.
+In the age of digital interaction, emojis are powerful tools for expressing emotions. Traditional sentiment analysis focuses on text and ignores the emotional value carried by emojis — especially when used without any text (e.g., a message with just "😢").
 
-**Use your preferred IDE**
+> **Challenge:** Build a model that can correctly identify emotional sentiment (positive, neutral, or negative) from emoji input.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✅ Solution Overview
 
-Follow these steps:
+This project solves the problem by:
+- Collecting emoji images grouped by sentiment.
+- Training a no-code ML model using **Lobe AI**.
+- Creating an interactive interface where users choose an emoji and get an instant sentiment result.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌍 Real-World Applications
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Social Media Monitoring** – Track public mood in emoji reactions/posts.
+- **Chatbots and Virtual Assistants** – Make responses emotionally intelligent.
+- **Mental Health Tracking** – Understand mood trends through emoji choices.
+- **Customer Feedback Analysis** – Classify satisfaction levels via emoji-only responses.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🧰 Tools & Technologies
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+| Tool        | Purpose                             |
+|-------------|-------------------------------------|
+| Lobe AI     | No-code ML model training (image-based) |
+| Streamlit   | Frontend web app to select and display results |
+| TensorFlow / ONNX | Model export format |
+| Python      | Optional backend logic |
+| Emojipedia / Custom Dataset | Emoji images for training |
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Dataset Structure
 
-## What technologies are used for this project?
+Organize images into labeled folders for Lobe to learn from:
 
-This project is built with:
+EmojiSentimentDataset/
+├── Positive/
+│ ├── smile.png
+│ ├── heart.png
+│ ├── laugh.png
+├── Negative/
+│ ├── angry.png
+│ ├── frown.png
+│ ├── thumbs_down.png
+├── Neutral/
+│ ├── meh.png
+│ ├── neutral_face.png
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+ How to Run Locally (Streamlit version)
 
-Simply open [Lovable](https://lovable.dev/projects/8ce1e845-13e6-46fa-862c-a587af65eb95) and click on Share -> Publish.
+1. Export your Lobe model.
+2. Clone or download this repo.
+3. Install Streamlit (if not already):
+   ```bash
+   pip install streamlit
+   Run the app:
 
-## Can I connect a custom domain to my Lovable project?
+🧪 Features
+Choose emoji to analyze mood
 
-Yes, you can!
+Instantly view sentiment result
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Simple and clean UI
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Model powered by Lobe AI
+
+Ready to expand with new emojis
+
+🔮 Future Scope
+Combine emojis + text sentiment for hybrid analysis
+
+Emoji GIF support
+
+Integration with messaging/chat platforms
+
+Firebase backend for saving usage stats and results
+
+📝 Credits
+Emojis sourced from Emojipedia
+
+Model trained using Lobe AI
+
+App UI possibly built using Streamlit or similar
+
+👩‍💻 Author
+Maleeha Jabeen
+3rd Year IT Engineering Student
+Shadan Women's College of Engineering and Technology
+Aspiring AI Developer passionate about creating innovative, real-world AI solutions using a combination of no-code tools and traditional programming.
+💡 Loves blending creativity with tech to make smart apps that feel human.
+
+Connect:
+🔗 Linkedin Profile : www.linkedin.com/in/
+maleeha-jabeen-0988462a2
+
+
+📌 License
+This project is open for educational and non-commercial use. Please credit the authors when using this project.
