@@ -105,9 +105,6 @@ App UI possibly built using Streamlit or similar
 👩‍💻 Author
 Maleeha Jabeen
 3rd Year IT Engineering Student
-Shadan Women's College of Engineering and Technology
-Aspiring AI Developer passionate about creating innovative, real-world AI solutions using a combination of no-code tools and traditional programming.
-💡 Loves blending creativity with tech to make smart apps that feel human.
 
 Connect:
 🔗 Linkedin Profile : www.linkedin.com/in/
